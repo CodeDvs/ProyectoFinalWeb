@@ -191,15 +191,6 @@
                     $('#txtPvp').css({ 'background-color': 'yellow' });
 
                 }
-                else if (CantMin  Cant)
-                {
-                    alert(CantMin);
-                    alert(Cant);
-                    $('#lblResultado').css({ 'color': 'red' });
-                    $('#lblResultado').text("¡La cantidad minima debe ser mayor a la actual!");
-                    $('#txtCantidadMinima').css({ 'background-color': 'yellow' });
-                    $('#txtCantidad').css({ 'background-color': 'yellow' });
-                }
                 //Opcs de guardar
                 else if(opc=1)
                 {
@@ -235,7 +226,8 @@
 
                     });
                 }
-                else if (opc = 2) {
+                else if (opc = 2)
+                {
 
                     $.ajax({
                         //Al que llamo
@@ -268,9 +260,6 @@
 
                     });
                 }
-
-
-            });
             //Funcionalidad del boton de modificacion
             $('#CmbProductos').change(function ()
             {
@@ -393,7 +382,7 @@
             <br/>
             <legend>Información del producto</legend>
         <asp:Label ID="lblNombre" runat="server" Text="Nombre: "/>
-        <br/> <%--onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==209) || (event.charCode==241)"--%>
+        <br/> 
         <asp:TextBox ID="txtNombre" runat="server"/>
         <asp:DropDownList ID="CmbProductos" runat="server"/>
         <br/>

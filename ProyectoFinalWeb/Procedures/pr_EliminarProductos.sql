@@ -1,3 +1,4 @@
+create procedure pr_EliminarProductos
 @p_Nombre varchar(25)
 as
 declare @v_id int

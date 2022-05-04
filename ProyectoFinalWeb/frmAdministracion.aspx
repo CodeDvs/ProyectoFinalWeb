@@ -191,15 +191,6 @@
                     $('#txtPvp').css({ 'background-color': 'yellow' });
 
                 }
-                else if (CantMin  Cant)
-                {
-                    alert(CantMin);
-                    alert(Cant);
-                    $('#lblResultado').css({ 'color': 'red' });
-                    $('#lblResultado').text("¡La cantidad minima debe ser mayor a la actual!");
-                    $('#txtCantidadMinima').css({ 'background-color': 'yellow' });
-                    $('#txtCantidad').css({ 'background-color': 'yellow' });
-                }
                 //Opcs de guardar
                 else if(opc=1)
                 {
@@ -268,9 +259,6 @@
 
                     });
                 }
-
-
-            });
             //Funcionalidad del boton de modificacion
             $('#CmbProductos').change(function ()
             {

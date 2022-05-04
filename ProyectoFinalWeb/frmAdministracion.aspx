@@ -393,7 +393,7 @@
             <br/>
             <legend>Información del producto</legend>
         <asp:Label ID="lblNombre" runat="server" Text="Nombre: "/>
-        <br/> <%--onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==209) || (event.charCode==241)"--%>
+        <br/> 
         <asp:TextBox ID="txtNombre" runat="server"/>
         <asp:DropDownList ID="CmbProductos" runat="server"/>
         <br/>

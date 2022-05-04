@@ -1,5 +1,5 @@
 create procedure pr_AltasProductos
-@p_Id char(5),
+@p_Id int,
 @p_Nombre varchar(25),
 @p_CantidadMin smallint,
 @p_Cantidad smallint,

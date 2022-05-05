@@ -10,8 +10,7 @@
     <link rel="stylesheet"  href="css/jquery.dataTables.min.css"/>
     <script type="text/javascript" charset="utf8" src="Jquery/Jquery3.6.js"></script>
     <script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script>
-    <!--pueba-->
-<%--    <script src="Jquery/jquery.min.js" type="text/javascript"></script>--%>
+    
     <script>
         function CargarTabla()
         {

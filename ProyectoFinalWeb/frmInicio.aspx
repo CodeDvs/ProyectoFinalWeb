@@ -100,7 +100,6 @@
                 else
                 {
                     id = $('#txtEliminar').val();
-                    alert(id);
                     $.ajax({
                         //Al que llamo
                         url: 'Controladores/EliminarProducto.ashx',

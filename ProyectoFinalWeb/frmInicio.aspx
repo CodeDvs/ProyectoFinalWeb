@@ -32,7 +32,8 @@
         $(document).ready(function ()
         {
             //Defino el DataTable
-            dtable = $('#tProductos').DataTable({ "columns": [{ "data": "NombreProducto" }, { "data": "CantidadMinima" }, { "data": "CantidadTotal" }, { "data": "PrecioCompra" }, { "data": "Pvp" }]});
+            dtable = $('#tProductos').DataTable({ "columns": [{ "data": "NombreProducto" }, { "data": "CantidadMinima" }, { "data": "CantidadTotal" },
+                                                              { "data": "PrecioCompra" }, { "data": "Pvp" }]});
 
             //Cargar tabla
             CargarTabla();

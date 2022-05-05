@@ -74,9 +74,7 @@
 
                     });
                 }
-
-
-            });
+                
             $('#txtComprobar').click(function ()
             {
                 $('#txtComprobar').css({ 'background-color': 'white' });

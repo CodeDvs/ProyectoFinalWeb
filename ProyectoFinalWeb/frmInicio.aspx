@@ -81,17 +81,6 @@
                 $('#txtComprobar').val("");
                 $('#lblResultado').text("");
             });
-            $('#btnMcancelar').click(function () {
-                //Le añado un valor al cbo
-                $('#CmbProductos').val(-1);
-                $('#btnEliminar').attr('disabled', true);
-            });
-
-            $('#btnX').click(function () {
-                //Le añado un valor al cbo
-                $('#CmbProductos').val(-1);
-                $('#btnEliminar').attr('disabled', true);
-            });
             $('#btnMAceptar').click(function ()
             {
                 //Valor de las variables

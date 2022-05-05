@@ -81,6 +81,11 @@
                 $('#txtComprobar').val("");
                 $('#lblResultado').text("");
             });
+            $('#txtEliminar').click(function ()
+            {
+                $('#txtEliminar').css({ 'background-color': 'white' });
+                $('#lblEliminar').text("");
+            });
             $('#btnMAceptar').click(function ()
             {
                 //Valor de las variables
@@ -131,12 +136,6 @@
                     });
                 }
             });
-            $('#txtEliminar').click(function ()
-            {
-                $('#txtEliminar').css({ 'background-color': 'white' });
-                $('#lblEliminar').text("");
-            });
-   
         });
     </script>
 </head>

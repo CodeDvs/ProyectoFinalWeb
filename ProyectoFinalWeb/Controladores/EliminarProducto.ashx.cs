@@ -45,15 +45,15 @@ namespace ProyectoFinalWeb.Controladores
             cmdEliminar.Parameters[0].Value = context.Request.Params["clave"];
 
             //Ejecuto el comando
-            //try
-            //{
+            try
+            {
                 cmdEliminar.ExecuteNonQuery();
                 context.Response.Write(0);
-            //}
-            //catch
-            //{
-            //    context.Response.Write(-1);
-            //}
+            }
+            catch
+            {
+                context.Response.Write(-1);
+            }
             
             //Cierro la conexion
             conexion.Close();
